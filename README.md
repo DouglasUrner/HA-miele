@@ -10,6 +10,12 @@ Read more on design philosophy etc in the [Wiki](https://github.com/astrandb/mie
 
 ## Installation
 
+If you haven't already done so, create a Miele developer account at https://www.miele.com/developer/. Click on the [Get Involved](https://www.miele.com/f/com/en/register_api.aspx) tab, then enter:
+1. "your application name" -- I used "Home Assistant".
+2. "your email address" -- I used a burner address that I created for IoT devices.
+
+Miele will send an activation link from **donotreply@mieleathome.com**, click on that link to display your credentials. You'll be shown a **Client ID** and a **Client Secret** and asked to aggree to the terms of use. Stash the credentials somewhere safe, if you lose them you will have to repeat this process.
+
 Make sure you have the app credentials available for your account with Miele cloud. You have to register on https://www.miele.com/developer/.
 If you have an existing integration with the name "miele" you are recommended to remove it before attemping to install this one.
 
